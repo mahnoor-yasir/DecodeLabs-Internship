@@ -14,31 +14,11 @@ Throughout this internship, I will complete multiple Python projects designed to
 
 ---
 
-## Repository Structure
-
-```
-DecodeLabs-Python-Programming-Internship/
-│
-├── Project-01-To-Do-List/
-├── Project-02/
-├── Project-03/
-├── Project-04/
-└── README.md
-```
-
-Each project is maintained in its own folder and includes the source code, documentation, and supporting resources.
-
----
-
 ## Projects
 
 | Project | Description | Status |
 |----------|-------------|--------|
 | Project 01 – To-Do List | A Python application for managing daily tasks using lists and menu-driven programming. | ✅ Completed |
-| Project 02 | Coming Soon | ⏳ Pending |
-| Project 03 | Coming Soon | ⏳ Pending |
-| Project 04 | Coming Soon | ⏳ Pending |
-
 ---
 
 ## Skills Covered
