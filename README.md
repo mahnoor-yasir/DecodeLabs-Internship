@@ -14,13 +14,6 @@ Throughout this internship, I will complete multiple Python projects designed to
 
 ---
 
-## Projects
-
-| Project | Description | Status |
-|----------|-------------|--------|
-| Project 01 – To-Do List | A Python application for managing daily tasks using lists and menu-driven programming. 
----
-
 ## Skills Covered
 
 - Python Programming
