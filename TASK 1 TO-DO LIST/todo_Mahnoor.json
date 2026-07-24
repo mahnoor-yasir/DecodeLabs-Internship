@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Python",
+    "description": "Internship",
+    "priority": "critical",
+    "created_at": "2026-07-21T23:24:27.198243",
+    "updated_at": "2026-07-21T23:28:19.520472",
+    "due_date": "2026-07-27",
+    "tags": [
+      "Assignment"
+    ],
+    "completed": true,
+    "completed_at": "2026-07-21T23:27:41.553352",
+    "subtasks": [],
+    "attachments": []
+  },
+  {
+    "id": 2,
+    "title": "Review of Mechine Learning Paper",
+    "description": "Review",
+    "priority": "low",
+    "created_at": "2026-07-21T23:25:20.648851",
+    "updated_at": "2026-07-21T23:30:26.114131",
+    "due_date": "2026-08-01",
+    "tags": [
+      "Review"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "subtasks": [
+      {
+        "id": 1,
+        "title": "Team Meeting",
+        "completed": true,
+        "created_at": "2026-07-21T23:29:57.269379"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": 3,
+    "title": "Web Development Exam",
+    "description": "Exam",
+    "priority": "high",
+    "created_at": "2026-07-21T23:26:02.756632",
+    "updated_at": "2026-07-21T23:26:02.756632",
+    "due_date": "2026-07-29",
+    "tags": [
+      "Urgent"
+    ],
+    "completed": false,
+    "completed_at": null,
+    "subtasks": [],
+    "attachments": []
+  }
+]
