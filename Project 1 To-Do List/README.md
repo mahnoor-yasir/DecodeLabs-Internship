@@ -63,20 +63,6 @@ The application provides an efficient way to organize and manage daily tasks thr
 
 ---
 
-## Project Structure
-
-```
-Project-01-Task-Management-System/
-│
-├── to_do_list.py
-├── todo_username.json
-├── todo_history_username.json
-├── README.md
-└── screenshots/
-```
-
----
-
 ## Application Workflow
 
 1. Launch the application.
