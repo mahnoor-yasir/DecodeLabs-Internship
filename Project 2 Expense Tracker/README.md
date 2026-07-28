@@ -532,33 +532,6 @@ These checks help maintain accurate and consistent financial records.
 
 ---
 
-# File Structure
-
-```
-Project 2 Expense Tracker/
-│
-├── assets/
-│   └── images/
-│       ├── Welcome Dialog.png
-│       ├── Main Dashboard.png
-│       ├── Search Record.png
-│       ├── Edit Expense.png
-│       ├── Delete Confirmation.png
-│       ├── Sub Category Dropdown.png
-│       ├── Statistics Report.png
-│       ├── Budget Manager.png
-│       ├── Category Manager.png
-│       ├── Settings Panel.png
-│       └── Currency Selection.png
-│
-├── expense tracker.py
-├── expenses_pro_ledger.json
-├── settings.json
-└── README.md
-```
-
----
-
 # Key Learning Outcomes
 
 This project demonstrates practical implementation of:
@@ -576,29 +549,6 @@ This project demonstrates practical implementation of:
 - User Input Validation
 - Multi-Tab Interface Design
 - Responsive Desktop Application Development
-
----
-
-# Future Enhancements
-
-The current implementation provides a complete desktop expense management system. Future versions may include additional enterprise-level capabilities such as:
-
-- Dark Mode Interface
-- Interactive Charts and Graphs
-- PDF Report Generation
-- Excel Import and Export
-- SQLite or MySQL Database Integration
-- User Authentication
-- Password Protection
-- Data Encryption
-- Cloud Synchronisation
-- Multi-User Support
-- Notification System
-- Expense Reminders
-- Receipt Image Upload
-- Automatic Expense Categorisation
-- AI-Based Spending Insights
-- Monthly Financial Forecasting
 
 ---
 
@@ -620,21 +570,6 @@ Highlights include:
 - JSON-based persistent storage
 - CSV export capability
 - Modular and maintainable application structure
-
----
-
-# Intended Users
-
-This application is suitable for:
-
-- Students
-- Freelancers
-- Professionals
-- Personal Finance Management
-- Python GUI Learning
-- Academic Projects
-- Internship Submissions
-- Software Development Portfolio
 
 ---
 
