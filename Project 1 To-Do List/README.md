@@ -1,38 +1,88 @@
 # Project 01 – Advanced Task Management System
 
-## Overview
+A professional command-line **Task Management System** developed in Python as **Project 01** for the **Decode Labs Python Programming Internship**.
 
-The **Advanced Task Management System** is a command-line Python application developed as **Project 01** during the **Decode Labs Python Programming Internship**.
-
-The application provides an efficient way to organize and manage daily tasks through a professional command-line interface. It supports task creation, modification, searching, filtering, statistics, persistent storage, and task exporting, making it more powerful than a traditional To-Do List application.
+The application provides an efficient solution for organizing daily tasks with advanced features such as task prioritization, due dates, searching, filtering, subtask management, statistics, persistent storage, and report exporting.
 
 ---
 
-## Objectives
+## Project Overview
 
-- Develop a practical task management application using Python.
-- Apply core Python programming concepts in a real-world project.
-- Implement persistent data storage using JSON files.
-- Improve problem-solving, modular programming, and software design skills.
+The Advanced Task Management System is designed to help users efficiently manage personal and academic tasks through a clean command-line interface. The application supports complete task lifecycle management while demonstrating practical Python programming concepts and software development practices.
 
 ---
 
 ## Features
 
-- Add new tasks with title, description, priority, due date, and tags.
-- View all tasks in a structured tabular format.
-- Update existing tasks.
-- Delete tasks.
-- Mark tasks as completed or pending.
-- Search tasks using keywords.
-- Filter tasks by status, priority, due date, and tags.
-- Sort tasks using different criteria.
-- Manage subtasks.
-- Display task statistics and completion rate.
-- Export task reports to a text file.
-- Automatically save and load tasks using JSON.
-- Maintain task history for better tracking.
-- Handle invalid inputs using exception handling.
+### Task Management
+- Add new tasks
+- View all tasks
+- Update existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Mark completed tasks as pending
+- View detailed task information
+
+### Advanced Task Details
+- Task title
+- Description
+- Priority levels
+  - Low
+  - Medium
+  - High
+  - Critical
+- Due date management
+- Tags
+- Creation timestamp
+- Update timestamp
+- Completion timestamp
+
+### Search & Filtering
+- Search tasks by keyword
+- Filter pending tasks
+- Filter completed tasks
+- View overdue tasks
+- View upcoming tasks
+- Filter high-priority tasks
+
+### Sorting
+- Newest first
+- Oldest first
+- Highest priority
+- Due date
+
+### Subtask Management
+- Add subtasks
+- Complete subtasks
+- Delete subtasks
+
+### Statistics Dashboard
+- Total tasks
+- Completed tasks
+- Pending tasks
+- Completion percentage
+- Priority distribution
+- Due soon tasks
+- Overdue tasks
+- Tag summary
+
+### Data Persistence
+- Automatic JSON data storage
+- Automatic loading of previous tasks
+- Separate task history file
+- User-specific task database
+
+### Export Functionality
+- Export complete task list
+- Export task statistics
+- Generate formatted text reports
+
+### Error Handling
+- Input validation
+- Invalid menu protection
+- Date validation
+- Exception handling
+- Keyboard interrupt handling
 
 ---
 
@@ -49,36 +99,43 @@ The application provides an efficient way to organize and manage daily tasks thr
 
 ## Python Concepts Implemented
 
-- Classes and Objects
+- Classes & Objects
 - Functions
-- Conditional Statements
-- Loops
 - Lists
 - Dictionaries
+- Loops
+- Conditional Statements
 - File Handling
-- Exception Handling
 - JSON Serialization
-- Modular Programming
+- Exception Handling
+- Object-Oriented Programming
 - Data Validation
+- Modular Programming
 
 ---
 
 ## Application Workflow
 
 1. Launch the application.
-2. Enter a username.
+2. Enter your username.
 3. Access the main menu.
 4. Add and manage tasks.
 5. Search or filter tasks.
-6. View task statistics.
-7. Export task reports.
-8. Save data automatically before exiting.
+6. Update or complete tasks.
+7. Manage subtasks.
+8. View task statistics.
+9. Export task reports.
+10. Save data and exit.
 
 ---
 
 ## Main Menu
 
-```
+```text
+============================================================
+MAIN MENU
+============================================================
+
 1. Add Task
 2. View Tasks
 3. Complete Task
@@ -93,54 +150,94 @@ The application provides an efficient way to organize and manage daily tasks thr
 
 ---
 
-## Sample Features
+## Screenshots
 
-- Task Priorities
-  - Low
-  - Medium
-  - High
-  - Critical
+### APPLICATION LAUNCH & MAIN MENU
 
-- Task Status
-  - Pending
-  - Completed
+![APPLICATION LAUNCH & MAIN MENU](assets/images/01-MAIN-MENU.png)
 
-- Additional Information
-  - Description
-  - Due Date
-  - Tags
-  - Created Date
-  - Updated Date
-  - Completion Date
+---
+
+### ADDING A NEW TASK
+
+![ADDING A NEW TASK](assets/images/02-ADD-TASK.png)
+
+---
+
+### VIEWING ALL TASKS
+
+![VIEWING ALL TASKS](assets/images/03-VIEW-TASKS.png)
+
+---
+
+### TASK DETAILS VIEW
+
+![TASK DETAILS VIEW](assets/images/04-TASK-DETAILS.png)
+
+---
+
+### ADDING A CRITICAL PRIORITY TASK
+
+![ADDING A CRITICAL PRIORITY TASK](assets/images/05-ADD-CRITICAL-TASK.png)
+
+---
+
+### TASK COMPLETION
+
+![TASK COMPLETION](assets/images/06-COMPLETE-TASK.png)
+
+---
+
+### UPDATING AN EXISTING TASK
+
+![UPDATING AN EXISTING TASK](assets/images/07-UPDATE-TASK.png)
+
+---
+
+### DELETING AND SEARCHING TASKS
+
+![DELETING AND SEARCHING TASKS](assets/images/08-SEARCH-DELETE-TASK.png)
+
+---
+
+### COMPLETED TASK DETAILS
+
+![COMPLETED TASK DETAILS](assets/images/09-COMPLETED-TASK-DETAILS.png)
+
+---
+
+### TASK STATISTICS DASHBOARD
+
+![TASK STATISTICS DASHBOARD](assets/images/10-TASK-STATISTICS.png)
+
+---
+
+### SUBTASK MANAGEMENT
+
+![SUBTASK MANAGEMENT](assets/images/11-MANAGE-SUBTASKS.png)
+
+---
+
+### EXPORTING TASKS
+
+![EXPORTING TASKS](assets/images/12-EXPORT-TASKS.png)
 
 ---
 
 ## Learning Outcomes
 
-This project helped strengthen practical knowledge of:
+Through this project, I strengthened my understanding of:
 
+- Python Programming
 - Object-Oriented Programming
+- JSON File Handling
 - Data Persistence
-- JSON File Management
-- Task Management Logic
 - Modular Programming
-- Python Best Practices
-- Clean Code Principles
 - Exception Handling
+- Data Structures
 - Command-Line Application Development
-
----
-
-## Future Enhancements
-
-- User Authentication
-- Password Protection
-- Email Notifications
-- GUI Version using Tkinter or PyQt
-- SQLite/MySQL Database Integration
-- Cloud Backup
-- Reminder System
-- Calendar Integration
+- Clean Code Practices
+- Problem Solving
 
 ---
 
