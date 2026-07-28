@@ -39,33 +39,6 @@ This project demonstrates practical implementation of GUI development, data pers
 
 ---
 
-## Project Structure
-
-```
-Enterprise-Personal-Finance-Management-System
-│
-├── assets
-│   └── images
-│       ├── Welcome Dialog.png
-│       ├── Main Dashboard.png
-│       ├── Search Record.png
-│       ├── Edit Expense.png
-│       ├── Delete Confirmation.png
-│       ├── Sub Category Dropdown.png
-│       ├── Statistics Report.png
-│       ├── Budget Manager.png
-│       ├── Category Manager.png
-│       ├── Settings Panel.png
-│       └── Currency Selection.png
-│
-├── expense_tracker.py
-├── expenses_pro_ledger.json
-├── settings.json
-└── README.md
-```
-
----
-
 ## Screenshots
 
 ### Welcome Dialog
@@ -160,22 +133,21 @@ Select the preferred currency for recording and displaying financial data.
 
 1. Clone the repository.
 
-```
-git clone https://github.com/your-username/Enterprise-Personal-Finance-Management-System.git
+```bash
+git clone https://github.com/mahnoor-yasir/Project-2-Expense-Tracker.git
 ```
 
 2. Navigate to the project folder.
 
-```
-cd Enterprise-Personal-Finance-Management-System
+```bash
+cd Project-2-Expense-Tracker
 ```
 
 3. Run the application.
 
+```bash
+python "expense tracker.py"
 ```
-python expense_tracker.py
-```
-
 ---
 
 ## Future Improvements
