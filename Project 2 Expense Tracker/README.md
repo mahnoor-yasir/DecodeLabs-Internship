@@ -1,99 +1,30 @@
 # Enterprise Personal Finance Management System
 
-A professional desktop application built using Python and Tkinter for managing personal expenses, tracking monthly budgets, analysing spending habits, and maintaining financial records through a modern graphical user interface.
-
----
-
 ## Overview
 
-The Enterprise Personal Finance Management System is a feature-rich desktop application developed in Python using the Tkinter GUI framework. It enables users to efficiently record expenses, organise financial data, monitor budgets, analyse spending trends, and securely store financial records using JSON-based persistence.
+The Enterprise Personal Finance Management System is a professional desktop application developed using Python and Tkinter for efficient personal expense management. The application provides an intuitive graphical interface that allows users to record, organize, search, edit, and analyse financial transactions while monitoring monthly budgets and generating statistical reports.
 
-The application is designed with a clean multi-tab interface that provides an intuitive experience while demonstrating practical concepts of GUI development, file handling, object-oriented programming, and data management.
+This project demonstrates practical implementation of GUI development, data persistence, expense analytics, budget management, category management, and CRUD operations in Python.
 
 ---
 
 ## Features
 
-### Expense Management
-
-- Add new expense records
-- Edit existing expense records
-- Delete selected expenses
-- Automatic Expense ID generation
-- Automatic date and time recording
-- Category and sub-category management
-- Payment method selection
-- Description support
-- Location tracking
-- Tags for expense organisation
-
-### Dashboard & Ledger
-
-- Professional graphical dashboard
-- Personalised welcome message
-- Today's spending summary
-- Monthly spending summary
-- Remaining budget calculation
-- Live expense ledger
-- Search functionality
-- Dynamic data updates
-
-### Statistics & Reports
-
-- Total expenses
-- Average expense
-- Highest expense
-- Lowest expense
-- Top spending category
-- Category-wise expense distribution
-- Total number of transactions
-- Percentage-based spending analysis
-
-### Budget Manager
-
-- Monthly budget management
-- Remaining budget calculation
-- Budget usage percentage
-- Visual progress indicator
-- Automatic warning when budget exceeds 90%
-
-### Category Manager
-
-- Add custom categories
-- Dynamic category management
-- Organised sub-categories
-
-### Search System
-
-Search expenses by:
-
-- Expense ID
-- Category
-- Description
-- Payment Method
-- Location
-- Tags
-
-### Settings
-
-- Update user profile
-- Change application currency
-- Automatic settings persistence
-
-Supported currencies:
-
-- PKR
-- USD
-- EUR
-- AED
-
-### Data Management
-
-- Automatic JSON data storage
-- Persistent expense records
-- CSV export
-- Automatic backup creation
-- Automatic data loading
+- Welcome Screen with User Profile
+- Dashboard with Financial Overview
+- Add New Expense Records
+- Edit Existing Expenses
+- Delete Expenses with Confirmation Dialog
+- Search Expense Records
+- Custom Category Management
+- Budget Management System
+- Expense Statistics & Reports
+- Currency Selection
+- Settings Management
+- CSV Export
+- JSON Data Persistence
+- Backup Support
+- Responsive Multi-Tab Interface
 
 ---
 
@@ -101,130 +32,177 @@ Supported currencies:
 
 - Python 3
 - Tkinter
-- ttk
 - JSON
 - CSV
 - Datetime
-- OS
-- Shutil
+- OS Module
 
 ---
 
 ## Project Structure
 
-```text
-Enterprise-Personal-Finance-Management-System/
+```
+Enterprise-Personal-Finance-Management-System
+│
+├── assets
+│   └── images
+│       ├── Welcome Dialog.png
+│       ├── Main Dashboard.png
+│       ├── Search Record.png
+│       ├── Edit Expense.png
+│       ├── Delete Confirmation.png
+│       ├── Sub Category Dropdown.png
+│       ├── Statistics Report.png
+│       ├── Budget Manager.png
+│       ├── Category Manager.png
+│       ├── Settings Panel.png
+│       └── Currency Selection.png
 │
 ├── expense_tracker.py
 ├── expenses_pro_ledger.json
 ├── settings.json
-├── expenses_export.csv
-├── backups/
-├── README.md
+└── README.md
 ```
 
 ---
 
-## Installation
+## Screenshots
 
-Clone the repository
+### Welcome Dialog
 
-```bash
-git clone https://github.com/your-username/enterprise-personal-finance-management-system.git
+The application begins with a welcome dialog where the user enters their name before accessing the system.
+
+![Welcome Dialog](assets/images/Welcome%20Dialog.png)
+
+---
+
+### Main Dashboard
+
+The dashboard provides an overview of expenses, categories, search functionality, and transaction management.
+
+![Main Dashboard](assets/images/Main%20Dashboard.png)
+
+---
+
+### Search Record
+
+Search expenses instantly using keywords to quickly locate matching records.
+
+![Search Record](assets/images/Search%20Record.png)
+
+---
+
+### Edit Expense
+
+Modify existing expense information without deleting the original record.
+
+![Edit Expense](assets/images/Edit%20Expense.png)
+
+---
+
+### Delete Confirmation
+
+Confirmation dialog prevents accidental deletion of expense records.
+
+![Delete Confirmation](assets/images/Delete%20Confirmation.png)
+
+---
+
+### Sub Category Dropdown
+
+Dynamic sub-category selection based on the selected expense category.
+
+![Sub Category Dropdown](assets/images/Sub%20Category%20Dropdown.png)
+
+---
+
+### Statistics Report
+
+Displays detailed financial summaries, expense breakdowns, averages, and spending analytics.
+
+![Statistics Report](assets/images/Statistics%20Report.png)
+
+---
+
+### Budget Manager
+
+Monitor monthly spending, remaining budget, and overall budget usage with a visual progress indicator.
+
+![Budget Manager](assets/images/Budget%20Manager.png)
+
+---
+
+### Category Manager
+
+Create and manage custom expense categories for better financial organization.
+
+![Category Manager](assets/images/Category%20Manager.png)
+
+---
+
+### Settings Panel
+
+Manage user preferences, export options, backup functionality, and application settings.
+
+![Settings Panel](assets/images/Settings%20Panel.png)
+
+---
+
+### Currency Selection
+
+Select the preferred currency for recording and displaying financial data.
+
+![Currency Selection](assets/images/Currency%20Selection.png)
+
+---
+
+## How to Run
+
+1. Clone the repository.
+
+```
+git clone https://github.com/your-username/Enterprise-Personal-Finance-Management-System.git
 ```
 
-Navigate to the project folder
+2. Navigate to the project folder.
 
-```bash
-cd enterprise-personal-finance-management-system
+```
+cd Enterprise-Personal-Finance-Management-System
 ```
 
-Run the application
+3. Run the application.
 
-```bash
+```
 python expense_tracker.py
 ```
 
 ---
 
-## Application Modules
+## Future Improvements
 
-- Dashboard & Ledger
-- Statistics & Reports
-- Budget Manager
-- Category Manager
-- Data Tools & Settings
-
----
-
-## Functional Highlights
-
-- Professional desktop graphical interface
-- Personalised user welcome screen
-- Expense recording with automatic timestamps
-- Monthly budget tracking
-- Financial statistics and reporting
-- Dynamic category management
-- Search and filtering
-- Edit and delete functionality
-- CSV export
-- JSON-based data persistence
-- Automatic backup creation
-- User settings management
+- Dark Mode
+- Charts and Graphs
+- PDF Report Generation
+- Excel Import and Export
+- Authentication System
+- Cloud Data Synchronization
+- Multi-User Support
+- Password Protection
+- Database Integration
+- Data Encryption
 
 ---
 
-## Learning Outcomes
+## Author
 
-This project demonstrates practical implementation of:
-
-- Object-Oriented Programming (OOP)
-- GUI Development using Tkinter
-- File Handling
-- JSON Data Persistence
-- CSV Export
-- Search and Filtering
-- Budget Calculations
-- Exception Handling
-- Modular Programming
-- User Interface Design
-
----
-
-## Future Enhancements
-
-- SQLite or MySQL database integration
-- PDF report generation
-- Excel export
-- Graphical charts and analytics
-- Dark mode
-- User authentication
-- Password protection
-- Cloud backup
-- AI-powered expense insights
-- Receipt image upload
-- Expense forecasting
-
----
-
-## Developer
-
-Mahnoor Yasir
+**Mahnoor Yasir**
 
 BS Computer Science
 
-Python Programming Intern
-
-Decode Labs
+Python Programming Internship Project
 
 ---
 
 ## License
 
-This project was developed for educational purposes and as part of the Decode Labs Python Programming Internship.
-
----
-
-## Acknowledgement
-
-This project demonstrates the practical application of Python programming concepts, graphical user interface development, data persistence, and personal finance management through a professional desktop application.
+This project is developed for educational and portfolio purposes.
