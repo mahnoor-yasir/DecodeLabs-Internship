@@ -590,11 +590,12 @@ Allows users to switch between Dark Mode and Light Mode, providing a customizabl
 
 ---
 
+
 ## 13. Question & Category Creator Portal
 
 Administrative interface used to create new quiz categories and add multiple-choice questions directly into the SQLite database.
 
-![Question & Category Creator Portal](assets/images/13.%20Question%20%26%20Category%20Creator%20Portal.png)
+![Question & Category Creator Portal](assets/images/13.%20Admin%20Portal.png)
 
 ---
 
@@ -602,7 +603,7 @@ Administrative interface used to create new quiz categories and add multiple-cho
 
 Confirmation message displayed after successfully saving a newly created question into the selected quiz category.
 
-![New Question Added Successfully](assets/images/14.%20New%20Question%20Added%20Successfully.png)
+![New Question Added Successfully](assets/images/14.%20Add%20New%20Question%20Successfully.png)
 
 ---
 
